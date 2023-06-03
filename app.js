@@ -9,7 +9,7 @@ let total = 0
 let hitPosition
 let currentTime = 60
 let timerId = null
-let hitSound = new Audio('hit-sound.mp3')
+let hitSound = new Audio('hit_sound.mp3')
 
 // pick random squares
 function randomSquare() {
