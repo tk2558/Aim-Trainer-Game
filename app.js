@@ -27,8 +27,8 @@ function randomSquare() {
 squares.forEach(square => {
     square.addEventListener('mousedown', () => {
         if (square.id == hitPosition) {
-            hit++
             hitSound.play()
+            hit++
             score.textContent = hit
             hitPosition = null
         }
