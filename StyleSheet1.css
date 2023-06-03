@@ -1,0 +1,24 @@
+.grid {
+    width: 1575px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.square {
+    height: 175px;
+    width: 175px;
+    border: solid white 1px;
+}
+
+.range {
+    width: 1425px;
+    height: 550px;
+    border: solid black 1px;
+}
+
+.target {
+    background-image: url("target.jpg");
+    background-size: cover;
+}
